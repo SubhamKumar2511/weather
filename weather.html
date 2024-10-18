@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-city" placeholder="Search City" spellcheck="false">
+            <button id="search-btn"><i class='bx bx-search'></i></button>
+        </div>
+        <div class="weather">
+            <div class="back-image weather-icon"><i class='bx bx-cloud-light-rain icons' style='color:#ebf006'></i></div>
+            <h1 class="temperature">22°C</h1>
+            <h2 class="city">New York</h2>
+        </div>
+        <div class="details">
+            <div class="col">
+                <i class='bx bx-water' style='color:#dedfda; font-size: 45px;'></i>
+                <p class="humidity">50% humidity</p>
+            </div>
+            <div class="col">
+                <i class='bx bx-wind' style='color:#dedfda;font-size: 40px;'></i>
+                <div class="wind-speed">15 km/hr</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="weatherapi.js"></script>
+</body>
+</html>
+ 90 changes: 90 additions & 0 deletions90  
